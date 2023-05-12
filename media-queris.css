@@ -1,0 +1,172 @@
+@media screen and (max-width:991px) {
+    h3{
+        font-size: 1.2rem;
+    }
+    .nav-toggle{
+        display: block;
+        /* margin-right: 10px; */
+        
+    }
+    .main-nav{
+        overflow: initial;
+       
+    }
+    .company-logo .img1{
+        align-self: flex-start;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        left: -110%;
+        top: 100%;
+        gap: 20px;
+        width: 100%;
+        margin-top: 5px;
+        padding-block: 18px;
+        transition: 0.3s ease-in;
+    }
+    .nav-links.active{
+        left: 0;
+    }
+    .nav-links ul{
+        flex-direction: column;
+    }
+    .example-area{
+        gap: 20px;
+    }
+    .example-card{
+        width: calc(50% - 10px);
+        justify-content: center;
+        height: 180px;
+    }
+    .cta-section{
+        padding-block: 20px;
+    }
+   
+}
+
+
+
+
+@media screen and (max-width:767px) {
+    .header-section{
+        flex-direction: column-reverse;
+    }
+    .header-left{
+        max-width: 100vw;
+        text-align: center;
+    }
+   .primary-button{
+        width: 100%;
+
+    }
+    .feature-card{
+        min-width: calc(50% - 10px);
+    }
+    .big-feature-container , #second-big-feature{
+        flex-direction: column;
+    }
+    .feature-img img{
+        width: 100%;
+    }
+    .content-right{
+        width: 100vw;
+        text-align: center;
+        font-size: 1.8rem;
+    }
+    .content-right img{
+        margin: auto;
+    }
+    .main-cta{
+        flex-direction: column-reverse;
+        /* justify-content: center; */
+        
+        
+    }
+    .cta-left{
+        align-self: flex-start;
+        text-align: center;
+        width: 93vw;
+        color: rgb(0, 0, 0);
+    }
+    .cta-right img{
+        width: 50%;
+        margin-left: 145px;
+    }
+    .cta-section{
+        justify-content: space-between;
+        height: 100vh;
+    }
+    .cta-left h2 {
+        width: 54vw;
+        /* align-self: flex-start; */
+        width: 75vw;
+        text-align: center;
+        font-size: 30px;
+    }
+    .cta-left p{
+        /* align-items: flex-end; */
+        font-size: 15px;
+        /* width: 100vw; */
+    }
+    .footer-container{
+        flex-direction: column;
+        justify-content: center;
+        margin-block: 20px;
+        
+
+    }
+    .footer-container a{
+        font-size: 16px;
+    }
+    .company-logo{
+        margin-block: 20px;
+    }
+    .sub-footer{
+        height: 152vh;
+    }
+   
+    
+}
+
+
+@media screen and (max-width:479px) {
+    :root{
+        --padding-inline-section : 10px
+    }
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    .feature-card{
+        min-width: 100%;
+    }
+    .example-card{
+        width: 100%;
+    }
+    .cta-right img{
+        width: 65%;
+        margin-left: 1px;
+    }
+    .cta-section{
+        height: 110vh;
+    }
+    .cta-left h2{
+        width: 92vw;
+        font-size: 25px;
+    }
+    .first-li{
+        font-size: 15px;
+    }
+    .second-li{
+        font-size: 15px;
+    }
+}
